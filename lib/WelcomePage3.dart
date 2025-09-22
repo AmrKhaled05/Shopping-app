@@ -36,7 +36,7 @@ class _Welcomepage3State extends State<Welcomepage3> {
               size: 30,
             )),
         title: Text(
-          "✨ Discover & Shop",
+          tr("App_title")+"✨",
           style: GoogleFonts.suwannaphum(
             textStyle: const TextStyle(
               fontSize: 24,
@@ -57,7 +57,7 @@ class _Welcomepage3State extends State<Welcomepage3> {
             Column(
               children: [
                 Text(
-                  "ShopCraft",
+                  tr("App_name"),
                   style: GoogleFonts.suwannaphum(
                     textStyle: TextStyle(
                     fontSize: 36,
