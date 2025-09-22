@@ -3,14 +3,14 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_product_card/flutter_product_card.dart';
 
-class Shopping extends StatefulWidget {
-  const Shopping({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<Shopping> createState() => _ShoppingState();
+  State<HomePage> createState() => _ShoppingState();
 }
 
-class _ShoppingState extends State<Shopping> {
+class _ShoppingState extends State<HomePage> {
   final PageController _pageController = PageController();
 
 

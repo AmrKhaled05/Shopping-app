@@ -155,7 +155,7 @@ class _SignupState extends State<Signup> {
                                               Navigator.push(
                                                 context,
                                                 MaterialPageRoute(
-                                                  builder: (context) => const Shopping(),
+                                                  builder: (context) => const HomePage(),
                                                 ),
                                               );
                                             });

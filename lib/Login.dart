@@ -101,7 +101,7 @@ class _LoginState extends State<Login> {
                                           Navigator.push(
                                             context,
                                             MaterialPageRoute<void>(
-                                              builder: (context) => const Shopping(),
+                                              builder: (context) => const HomePage(),
                                             ),
                                           );
                                         },
